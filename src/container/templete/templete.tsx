@@ -3,10 +3,12 @@ interface Props {
   name: string;
   age: any;
 }
-
+Templete.defaultProps = {
+  name: 123222
+};
 function Templete({ name, age }: Props) {
   console.log(name, age);
-  return <div>123</div>;
+  return <div>{name}</div>;
 }
 
 export default Templete;
