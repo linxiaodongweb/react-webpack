@@ -88,7 +88,7 @@ module.exports = {
 
     "no-undef": 1, //变量未定义
 
-    "no-unused-vars": 1, //变量定义后未使用
+    "no-unused-vars": 2, //变量定义后未使用
 
     "no-cond-assign": 2, //条件语句中禁止赋值操作
 
